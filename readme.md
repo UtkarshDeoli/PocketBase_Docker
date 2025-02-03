@@ -25,7 +25,7 @@ This guide helps you set up PocketBase using Docker for easy deployment and pers
     > - Replace `[SomeName]` with the name you want for your container.
     > - Replace `[port]` with the desired port number.
     > - Replace `[username]/[name_image]` with your image name.
-
+    > - Optional : Replace the `$(pwd)/pb_data` with your desireable location to store the pb_data
 ---
 
 ## 🔑 **Create Superuser (For First Login)**
