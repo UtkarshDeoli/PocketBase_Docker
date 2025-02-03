@@ -15,6 +15,9 @@ RUN unzip /tmp/pb.zip -d /pb/ && \
 # Ensure pb_data is persistent
 VOLUME /pb/pb_data
 
+# Uncomment to use a static website using pb_public
+#VOLUME /pb/pb_public
+
 # Uncomment to copy the local pb_migrations directory into the image
 # COPY ./pb_migrations /pb/pb_migrations
 
